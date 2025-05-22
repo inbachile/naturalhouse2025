@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INBA Chile 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>INBA Chile 2025 - Natural House Championships</h1>
+        <p>24 de agosto de 2025 - 10:00 AM<br>Teatro de San Javier, Arturo Prat 2480, San Javier de Loncomilla, Región del Maule</p>
+    </header>
+    <section class="afiche">
+        <img src="img/afiche.jpg" alt="Afiche del evento">
+    </section>
+    <section class="entradas">
+        <h2>Entradas</h2>
+        <p><strong>General:</strong> $15.000 CLP (150 disponibles)</p>
+        <p><strong>VIP:</strong> $30.000 CLP (60 disponibles)</p>
+    </section>
+    <section class="pagos">
+        <h2>Formas de pago</h2>
+        <ul>
+            <li>Link de pago Tenpo</li>
+            <li>Transferencia</li>
+            <li>Pago en efectivo</li>
+        </ul>
+    </section>
+    <section class="formulario">
+        <h2>Reserva tu entrada</h2>
+        <form action="https://formspree.io/f/mwkgbzpq" method="POST">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo" required>
+            <select name="tipo_entrada" required>
+                <option value="">Selecciona tipo de entrada</option>
+                <option value="General">General</option>
+                <option value="VIP">VIP</option>
+            </select>
+            <textarea name="mensaje" placeholder="Mensaje adicional"></textarea>
+            <button type="submit">Enviar solicitud</button>
+        </form>
+        <div class="whatsapp">
+            <a href="https://wa.me/56961451122" target="_blank">📱 Consultas por WhatsApp</a>
+        </div>
+    </section>
+    <footer>
+        <p>Contacto: <a href="mailto:chileinba@gmail.com">chileinba@gmail.com</a> | WhatsApp: <a href="https://wa.me/56961451122">+56 9 6145 1122</a></p>
+    </footer>
+</body>
+</html>

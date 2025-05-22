@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+header, section, footer {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+header {
+    background: #202124;
+    color: #fff;
+    text-align: center;
+}
+.afiche img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+form input, form select, form textarea, form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
